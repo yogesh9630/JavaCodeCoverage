@@ -166,9 +166,14 @@
 </activation>
 <properties>
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
-<sonar.host.url>
+	<!--<sonar.host.url>
         http://52.3.112.160:9000/
 </sonar.host.url>
+	</properties> -->
+
+		<properties>
+  <sonar.organization>yogesh9630</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 </properties>
 </profile>
 </profiles>
